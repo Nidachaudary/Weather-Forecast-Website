@@ -1,0 +1,67 @@
+  /*font-family  */
+  @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Roboto&display=swap');
+  
+  *{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    margin-top: 10px;
+   text-align: center;
+ }
+
+
+/* rgba(240, 255, 255, 0.192) */
+body{
+    background-color: rgba(240, 255, 255, 0.938) ;
+    font-family: 'Roboto', sans-serif;
+}
+.border-rounded{
+    border-radius: 3px;
+}
+.container{
+    
+    width: 1200px;
+    margin: auto;
+    margin-top:20px ;
+  
+margin-bottom:40px ;
+    background-color: white;
+    box-shadow: 3px 1px 19px -7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 3px 1px 19px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 1px 19px -7px rgba(0,0,0,0.75);
+   
+}
+table{
+    width:100%;
+    border-spacing: 0px;
+}
+th{
+    text-align: start;
+}
+th ,td{
+    padding: 17px;
+ }
+
+ .bg-light-grey{
+    background-color: lightgrey;
+}
+
+.btn{
+    padding: 6px;
+    cursor: pointer;
+    border: none;
+}
+.btn-red{
+color: white;
+background-color: rgb(168, 10, 10);
+}
+.btn-green{
+    color: white;
+    background-color: rgb(17, 243, 17);
+    }
+.btn-darkorange{
+        color:black ;
+        background-color: darkorange;
+        }
