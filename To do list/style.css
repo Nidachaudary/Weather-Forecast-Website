@@ -1,0 +1,27 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+
+
+.font-family{
+ font-family: 'Prompt', sans-serif;;
+}
+
+.style{
+text-decoration: line-through;
+}
+
+
+.btnStyling1{
+  border: 2px solid black;
+  border-radius: 5px;
+  color : white;
+  background-color: rgb(33, 32, 32);
+  padding : 3px 5px;
+  margin : 5px;
+}
+.btnStyling1-hover
+{
+  color:brown;
+background-color: rgba(24, 24, 24, 0.858);
+}
