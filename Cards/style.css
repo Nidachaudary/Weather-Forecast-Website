@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* font-family */
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Fjalla+One&family=Josefin+Sans&family=Oleo+Script+Swash+Caps&family=Roboto&display=swap');
+
+
+
+.container{
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+}
+/* border */
+.bodr{
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+.insta-border{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+/* text and bg-colors */
+.bg-colors{
+    background-color: white;
+}
+.insta-color{
+    background-color: rgb(243, 12, 89);
+    color: white;
+}
+/* headings */
+.heading{
+  font-weight: bold;
+  font-size: xx-large;  
+}
+
+
+
+/* display */
+.display{
+    display: inline-block;
+    width: 220px;
+    height: 355px;
+   margin: auto;
+    
+}
+
+.display-insta{
+    display: inline-block;
+    width: 220px;
+    height: 355px;
+   margin: auto;
+    
+}
+
+
+
+/* margins */
+.m1{
+    margin-top: 0px;
+    margin:104px 0px 20px 0px;
+}
+
+
+.mtop-1{
+    margin-top: 20px;
+}
+.mb-1{
+    margin-bottom: 20px;
+}
+.mb-2{
+    margin-bottom: 20px;
+}
+.mb-3{
+    margin-bottom: 10px;
+}
+/* overall padding */
+
+.padding{
+    padding: 10px;
+}
+.btn-padding{
+    padding: 15px 25px;
+}
+p{
+    padding: 9.5px;
+}
+
+
+/* icon size */
+.fa-brands{
+    font-size: 60px;
+}
+/* link styling */
+.btn{
+    text-decoration: none;
+    display: block;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+   
+}
+ .btn-insta{
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    color:rgb(235, 27, 155);
+    border-radius: 30px;
+ } 
+/* hover effect on insta */
+ 
+ .insta-color:hover{
+    background-color:blue;
+    color:white;
+  
+    
+ }
+ 
+ .btn-insta:hover{
+    background-color: white;
+    color:blue;
+    
+ }
