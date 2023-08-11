@@ -1,0 +1,42 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt&family=Varela+Round&display=swap');
+
+
+.font-family{
+
+    font-family: 'Varela Round', sans-serif;
+}
+
+.margin{
+    margin-top:100px;
+    padding:50px;
+}
+
+
+.width{
+    width:35% ;
+}
+.setting
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.background-color{
+    background-color:rgb(48, 6, 48);
+}
+
+
+
+.result-container {
+    display: flex;
+    flex-direction: row;
+    justify-content : space-between;
+    border : 1px solid  rgb(35, 33, 33) ;
+    width: 376px;
+    padding: 4px 10px 5px 4px;
+    margin-bottom:16px;
+    
+  }
+  
