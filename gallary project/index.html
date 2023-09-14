@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallay</title>
+
+    <!-- css ,  bootstrap and fontawesome icons link -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body class="bg-warning">
+    <!-- full image background display -->
+
+    <div class="fullImgBackgroundDisplay d-none" id="fullImgBackgroundDisplay">
+      <div class="text-end">
+        <i class="fa-solid fa-xmark text-white p-2 icon iconSet"></i>
+      </div>
+
+      <!-- which image display -->
+      <div class="imageDisplaySet">
+        <!-- first image -->
+        <div class="d-none" id="im-1">
+          <img class="fullImgSet" src="./images/IMG-20230906-WA0023.jpg" />
+          <i
+            class="fa-solid fa-caret-right imageMoveIcon ms-3 firstImageNextIcon"
+          ></i>
+        </div>
+        <!-- second image -->
+        <div class="d-none" id="im-2">
+          <i
+            class="fa-solid fa-caret-left imageMoveIcon me-3 secondImageBackIcon"
+          ></i>
+          <img class="fullImgSet" src="./images/IMG-20230906-WA0024.jpg" />
+          <i
+            class="fa-solid fa-caret-right imageMoveIcon ms-3 secondImageNextIcon"
+          ></i>
+        </div>
+
+        <!-- third image -->
+        <div class="d-none" id="im-3">
+          <i
+            class="fa-solid fa-caret-left imageMoveIcon me-3 thirdImageBackIcon"
+          ></i>
+          <img class="fullImgSet" src="./images/IMG-20230906-WA0025.jpg" />
+          <i
+            class="fa-solid fa-caret-right imageMoveIcon ms-3 thirdImageNextIcon"
+          ></i>
+        </div>
+        <!-- fourth image -->
+        <div class="d-none" id="im-4">
+          <i
+            class="fa-solid fa-caret-left imageMoveIcon me-3 fourthImageBackIcon"
+          ></i>
+          <img class="fullImgSet" src="./images/IMG-20230906-WA0026.jpg" />
+          <i
+            class="fa-solid fa-caret-right imageMoveIcon ms-3 fourthImageNextIcon"
+          ></i>
+        </div>
+
+        <!-- fifth image -->
+        <div class="d-none" id="im-5">
+          <i
+            class="fa-solid fa-caret-left imageMoveIcon me-3 fifthImageBackIcon"
+          ></i>
+          <img class="fullImgSet" src="./images/IMG-20230906-WA0027.jpg" />
+          <i
+            class="fa-solid fa-caret-right imageMoveIcon ms-3 fifthImageNextIcon"
+          ></i>
+        </div>
+
+        <!-- sixth image -->
+        <div class="d-none" id="im-6">
+          <i
+            class="fa-solid fa-caret-left imageMoveIcon me-3 sixthImageBackIcon"
+          ></i>
+          <img class="fullImgSet" src="./images/IMG-20230906-WA0028.jpg" />
+          <i
+            class="fa-solid fa-caret-right imageMoveIcon ms-3 sixthImageNextIcon"
+          ></i>
+        </div>
+        <!-- seventh image -->
+        <div class="d-none" id="im-7">
+          <i
+            class="fa-solid fa-caret-left imageMoveIcon me-3 seventhImageBackIcon"
+          ></i>
+          <img class="fullImgSet" src="./images/IMG-20230906-WA0029.jpg" />
+          <i
+            class="fa-solid fa-caret-right imageMoveIcon ms-3 seventhImageNextIcon"
+          ></i>
+        </div>
+        <!-- eighth image -->
+        <div class="d-none" id="im-8">
+          <i
+            class="fa-solid fa-caret-left imageMoveIcon me-3 eighthImageBackIcon"
+          ></i>
+          <img class="fullImgSet" src="./images/IMG-20230906-WA0030.jpg" />
+        </div>
+      </div>
+    </div>
+
+    <!--image display on browser at first look -->
+    <div class="grid-container">
+      <img class="item" id="img1" " src="./images/IMG-20230906-WA0023.jpg" />
+      <img class="item" id="img2" src="./images/IMG-20230906-WA0024.jpg" />
+      <img class="item" id="img3" src="./images/IMG-20230906-WA0025.jpg" />
+      <img class="item" id="img4" src="./images/IMG-20230906-WA0026.jpg" />
+      <img class="item" id="img5" src="./images/IMG-20230906-WA0027.jpg" />
+      <img class="item" id="img6" src="./images/IMG-20230906-WA0028.jpg" />
+      <img class="item" id="img7" src="./images/IMG-20230906-WA0029.jpg" />
+      <img class="item" id="img8" src="./images/IMG-20230906-WA0030.jpg" />
+    </div>
+
+    <script src="./code.js"></script>
+  </body>
+</html>

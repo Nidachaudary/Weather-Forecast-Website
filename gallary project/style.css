@@ -1,0 +1,169 @@
+/* overall setting */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* setting of grid container and its item */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 270px);
+  grid-template-rows: repeat(2, 300px);
+  justify-content: center;
+  align-items: center;
+  grid-gap: 0.5rem;
+  width: 100vw;
+  padding: 21px;
+}
+.item {
+  height: 300px;
+  width: 270px;
+  border-radius: 5px;
+}
+.item:hover {
+  transform: scale(0.8) rotate(-15deg);
+  box-shadow: 0px 0px 10px black;
+  border-radius: 20px;
+}
+/* full image setting */
+/* it is for setting the backgrouond of full image */
+.fullImgBackgroundDisplay {
+  position: fixed;
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+/* it is for setting the image display */
+.imageDisplaySet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+/* it is for setting the image like height etc */
+.fullImgSet {
+  height: 500px;
+  width: 470px;
+
+  box-shadow: 0px 0px 10px white;
+  border-radius: 50px;
+}
+/* icon (close) setting */
+.iconSet {
+  width: 50px;
+  font-size: 25px;
+  text-align: center;
+}
+.iconSet:hover {
+  background-color: red;
+}
+/* forward and backward icon */
+.imageMoveIcon {
+  font-size: 50px;
+  color: grey;
+}
+.imageMoveIcon:hover {
+  font-size: 70px;
+}
+/* media queries with css grid*/
+/* width until not 460 the following styling apply */
+@media (max-width: 460px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 290px);
+    grid-template-rows: repeat(12, 320px);
+    justify-content: center;
+    justify-content: center;
+    grid-gap: 0.5rem;
+    padding: 21px;
+    width: 100vw;
+  }
+  .item {
+    height: 320px;
+    width: 290px;
+    border-radius: 5px;
+  }
+
+  .fullImgSet {
+    height: 350px;
+    width: 180px;
+
+    box-shadow: 0px 0px 10px white;
+    border-radius: 50px;
+  }
+}
+/* width between 460 and 590 */
+@media (min-width: 460px) and (max-width: 590px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 290px);
+    grid-template-rows: repeat(12, 320px);
+    justify-content: center;
+    justify-content: center;
+    grid-gap: 0.5rem;
+
+    padding: 21px;
+    width: 100vw;
+  }
+  .item {
+    height: 320px;
+    width: 290px;
+    border-radius: 5px;
+  }
+  .fullImgSet {
+    height: 350px;
+    width: 330px;
+
+    box-shadow: 0px 0px 10px white;
+    border-radius: 50px;
+  }
+}
+/* width between 590 and 820 */
+@media (min-width: 590px) and (max-width: 820px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 270px);
+    grid-template-rows: repeat(6, 300px);
+    justify-content: center;
+    justify-content: center;
+    grid-gap: 0.5rem;
+
+    padding: 21px;
+    width: 100vw;
+  }
+  .item {
+    height: 300px;
+    width: 270px;
+    border-radius: 5px;
+  }
+  .fullImgSet {
+    height: 350px;
+    width: 330px;
+
+    box-shadow: 0px 0px 10px white;
+    border-radius: 50px;
+  }
+}
+/* width between 820 and 1155 */
+@media (min-width: 820px) and (max-width: 1155px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 270px);
+    grid-template-rows: repeat(4, 300px);
+    justify-content: center;
+    justify-content: center;
+    grid-gap: 0.5rem;
+
+    padding: 21px;
+    width: 100vw;
+  }
+  .item {
+    height: 300px;
+    width: 270px;
+    border-radius: 5px;
+  }
+  .fullImgSet {
+    height: 350px;
+    width: 330px;
+
+    box-shadow: 0px 0px 10px white;
+    border-radius: 50px;
+  }
+}
