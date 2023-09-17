@@ -1,1 +1,1 @@
-About this function i wrote it in script.js at where this function defines
+About this function i wrote  in script.js at where this function defines
